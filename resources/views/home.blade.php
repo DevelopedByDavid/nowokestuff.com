@@ -1,5 +1,6 @@
 @extends ('layout')
 @section ('content')
+<body class="woocommerce-active page-template-template-homepage-v1 can-uppercase">
     <div id="page" class="hfeed site">
         <div class="top-bar top-bar-v1">
             <div class="col-full">
@@ -243,7 +244,7 @@
                                                                 <a href="faq.html">FAQ</a>
                                                             </li>
                                                             <li class="menu-item">
-                                                                <a href="404.html">404</a>
+                                                                <a href="404.blade.php">404</a>
                                                             </li>
                                                         </ul>
                                                         <!-- .menu -->
@@ -13034,5 +13035,5 @@
     <script type="text/javascript" src="assets/js/pace.min.js"></script>
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
-
+</body>
 @endsection

@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,900" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/fav-icon.png">
 </head>
-<body class="woocommerce-active page-template-template-homepage-v1 can-uppercase">
+
 @yield('content')
-</body>
+
 </html>
