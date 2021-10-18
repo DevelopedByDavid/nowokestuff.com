@@ -1,69 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="en-US" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>Techmarket HTML</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-grid.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-reboot.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/font-techmarket.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/techmarket-font-awesome.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/colors/blue.css" media="all" />
 
-    <title>No Woke Stuff</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-    <!-- Styles -->
-    <style>
-        html, body {
-            background-color: #fff;
-            color: #636b6f;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-
-        .content {
-            text-align: center;
-        }
-
-        .title {
-            font-size: 84px;
-        }
-
-        .links > a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        .m-b-md {
-            margin-bottom: 30px;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,900" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/fav-icon.png">
 </head>
-<body>
-@yield('content');
+<body class="woocommerce-active page-template-template-homepage-v1 can-uppercase">
+@yield('content')
 </body>
 </html>
