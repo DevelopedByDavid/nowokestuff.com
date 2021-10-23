@@ -47,7 +47,7 @@
                         <nav id="primary-navigation" class="primary-navigation" aria-label="Primary Navigation" data-nav="flex-menu">
                             <ul id="menu-primary-menu" class="nav yamm">
                                 <li class="sale-clr yamm-fw menu-item animate-dropdown">
-                                    <a title="Super deals" href="product-category.html">Super deals</a>
+                                    <a title="Super deals" href="product-category.html">Great deals</a>
                                 </li>
                                 <li class="menu-item menu-item-has-children animate-dropdown dropdown">
                                     <a title="Mother`s Day" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" href="#">Mother`s Day <span class="caret"></span></a>
